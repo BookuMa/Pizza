@@ -28,23 +28,23 @@ create table items (
 ) ;
 
 insert into items values(1, 'じゃがバターベーコン', 'ホクホクのポテトと旨味が凝縮されたベーコンを特製マヨソースで味わって頂く商品です。バター風味豊かなキューブチーズが食材の味を一層引き立てます。', 1490, 2570, '${pageContext.request.contextPath}/img/0004595.jpg');
-insert into items values(2, 'アスパラ・ミート', 'グリーンアスパラと相性の良いベーコンにいろどりのフレッシュトマトをトッピングし特製マヨソースでまとめた商品です', 1490, 2570, 'http://172.16.0.16/media_2017/image/first_ec/2.jpg');
-insert into items values(3, '熟成ベーコンとマッシュルーム', 'マッシュルームと熟成ベーコンにブラックペッパーをトッピングしたシンプルなピザ！', 1490, 2570, 'http://172.16.0.16/media_2017/image/first_ec/3.jpg');
-insert into items values(4, 'カレーじゃがバター', 'マイルドな味付けのカレーに大きくカットしたポテトをのせた、バターとチーズの風味が食欲をそそるお子様でも楽しめる商品です', 1900, 2980, 'http://172.16.0.16/media_2017/image/first_ec/4.jpg');
-insert into items values(5, '明太バターチーズ', '大きくカットしたポテトにコーンとベーコンをトッピングして、明太クリームソース、バター、チーズを合わせた、家族で楽しめるピザです', 1900, 2980, 'http://172.16.0.16/media_2017/image/first_ec/5.jpg');
-insert into items values(6, '濃厚ゴージャス4', '「厚切イベリコ」、「贅沢フォルマッジ」「ピザハット・シュプリーム」「アボカドシュリンプ」4種類の濃厚な味わいが一つで楽しめるピザです', 2700, 4050, 'http://172.16.0.16/media_2017/image/first_ec/6.jpg');
-insert into items values(7, 'ピザベスト4', 'ピザハットの人気ピザ"ベスト4"（「アイダホ風ほっくりポテマヨ」、「フレッシュモッツァレラのマルゲリータ」、「特うまプルコギ」', 2570, 3780, 'http://172.16.0.16/media_2017/image/first_ec/7.jpg');
-insert into items values(8, 'チャリティー4', '「デラックス」、「ミート・シュプリーム」、「ツナマイルド」、「ガーリック・トマト」の組み合わせ。「チャリティー4」1枚のご注文につき、世界の飢餓救済に', 2160, 3380, 'http://172.16.0.16/media_2017/image/first_ec/8.jpg');
-insert into items values(9, '特うまプルコギ', 'ミートナンバー１！甘辛ダレの焼肉がクセになる！食べると思わず元気が出るピザハットの自信作', 2700, 4050, 'http://172.16.0.16/media_2017/image/first_ec/9.jpg');
-insert into items values(10, 'フレッシュモッツァレラ', 'ピザの王道！トマトとフレッシュモッツァレラが絶妙です', 2160, 3380, 'http://172.16.0.16/media_2017/image/first_ec/10.jpg');
-insert into items values(11, 'スペシャル・ミート4', 'お肉好きの方必見！ピザハット人気のミートシリーズが1枚のピザになって新登場！「厚切イベリコ」「ワイルド・ガーリック」「特うまプルコギ」', 2700, 4050, 'http://172.16.0.16/media_2017/image/first_ec/11.jpg');
-insert into items values(12, 'バラエティー４', '「めちゃマヨ・ミート」「ガーリック・トマト」「えびマヨコーン」、「フレッシュモッツァレラのマルゲリータ」が一つになった4種のピザ', 2160, 3380, 'http://172.16.0.16/media_2017/image/first_ec/12.jpg');
-insert into items values(13, 'めちゃマヨミート', 'あらびきスライスソーセージとイタリアンソーセージの2種類のソーセージを、トマトソースと特製マヨソースの2種類のソースで召し上がって頂く商品です', 2160, 3380, 'http://172.16.0.16/media_2017/image/first_ec/13.jpg');
-insert into items values(14, 'とろけるビーフシチュー', 'デミグラスソースでじっくり煮込んだ旨味たっぷりのビーフシチューのピザ', 2980, 4460, 'http://172.16.0.16/media_2017/image/first_ec/14.jpg');
-insert into items values(15, 'シーフードミックス', 'シーフードナンバー１！魚介の旨みたっぷり！人気の海の幸と、野菜のリッチなおいしさ', 2700, 4050, 'http://172.16.0.16/media_2017/image/first_ec/15.jpg');
-insert into items values(16, 'ファミリー４', 'ピザハット自慢「特うまプルコギ」定番「デラックス」お子様に人気「ツナマイルド」女性に好評「チーズ＆チーズ」の４種のおいしさを贅沢に組み合わせました', 2440, 3650, 'http://172.16.0.16/media_2017/image/first_ec/16.jpg');
-insert into items values(17, 'アイダホ風ほっくりポテマヨ', 'みんな大好き！ポテトと特製マヨソースの組み合わせ！定番のおいしさを味わえます', 2440, 3650, 'http://172.16.0.16/media_2017/image/first_ec/17.jpg');
-insert into items values(18, '贅沢フォルマッジ', '濃厚なカマンベールソース＆カマンベールと香りとコクのパルメザンチーズをトッピング', 2700, 4050, 'http://172.16.0.16/media_2017/image/first_ec/18.jpg');
+insert into items values(2, 'アスパラ・ミート', 'グリーンアスパラと相性の良いベーコンにいろどりのフレッシュトマトをトッピングし特製マヨソースでまとめた商品です', 1490, 2570, '${pageContext.request.contextPath}/image/first_ec/2.jpg');
+insert into items values(3, '熟成ベーコンとマッシュルーム', 'マッシュルームと熟成ベーコンにブラックペッパーをトッピングしたシンプルなピザ！', 1490, 2570, '${pageContext.request.contextPath}/image/first_ec/3.jpg');
+insert into items values(4, 'カレーじゃがバター', 'マイルドな味付けのカレーに大きくカットしたポテトをのせた、バターとチーズの風味が食欲をそそるお子様でも楽しめる商品です', 1900, 2980, '${pageContext.request.contextPath}/image/first_ec/4.jpg');
+insert into items values(5, '明太バターチーズ', '大きくカットしたポテトにコーンとベーコンをトッピングして、明太クリームソース、バター、チーズを合わせた、家族で楽しめるピザです', 1900, 2980, '${pageContext.request.contextPath}/image/first_ec/5.jpg');
+insert into items values(6, '濃厚ゴージャス4', '「厚切イベリコ」、「贅沢フォルマッジ」「ピザハット・シュプリーム」「アボカドシュリンプ」4種類の濃厚な味わいが一つで楽しめるピザです', 2700, 4050, '${pageContext.request.contextPath}/image/first_ec/6.jpg');
+insert into items values(7, 'ピザベスト4', 'ピザハットの人気ピザ"ベスト4"（「アイダホ風ほっくりポテマヨ」、「フレッシュモッツァレラのマルゲリータ」、「特うまプルコギ」', 2570, 3780, '${pageContext.request.contextPath}/image/first_ec/7.jpg');
+insert into items values(8, 'チャリティー4', '「デラックス」、「ミート・シュプリーム」、「ツナマイルド」、「ガーリック・トマト」の組み合わせ。「チャリティー4」1枚のご注文につき、世界の飢餓救済に', 2160, 3380, '${pageContext.request.contextPath}/image/first_ec/8.jpg');
+insert into items values(9, '特うまプルコギ', 'ミートナンバー１！甘辛ダレの焼肉がクセになる！食べると思わず元気が出るピザハットの自信作', 2700, 4050, '${pageContext.request.contextPath}/image/first_ec/9.jpg');
+insert into items values(10, 'フレッシュモッツァレラ', 'ピザの王道！トマトとフレッシュモッツァレラが絶妙です', 2160, 3380, '${pageContext.request.contextPath}/image/first_ec/10.jpg');
+insert into items values(11, 'スペシャル・ミート4', 'お肉好きの方必見！ピザハット人気のミートシリーズが1枚のピザになって新登場！「厚切イベリコ」「ワイルド・ガーリック」「特うまプルコギ」', 2700, 4050, '${pageContext.request.contextPath}/image/first_ec/11.jpg');
+insert into items values(12, 'バラエティー４', '「めちゃマヨ・ミート」「ガーリック・トマト」「えびマヨコーン」、「フレッシュモッツァレラのマルゲリータ」が一つになった4種のピザ', 2160, 3380, '${pageContext.request.contextPath}/image/first_ec/12.jpg');
+insert into items values(13, 'めちゃマヨミート', 'あらびきスライスソーセージとイタリアンソーセージの2種類のソーセージを、トマトソースと特製マヨソースの2種類のソースで召し上がって頂く商品です', 2160, 3380, '${pageContext.request.contextPath}/image/first_ec/13.jpg');
+insert into items values(14, 'とろけるビーフシチュー', 'デミグラスソースでじっくり煮込んだ旨味たっぷりのビーフシチューのピザ', 2980, 4460, '${pageContext.request.contextPath}/image/first_ec/14.jpg');
+insert into items values(15, 'シーフードミックス', 'シーフードナンバー１！魚介の旨みたっぷり！人気の海の幸と、野菜のリッチなおいしさ', 2700, 4050, '${pageContext.request.contextPath}/image/first_ec/15.jpg');
+insert into items values(16, 'ファミリー４', 'ピザハット自慢「特うまプルコギ」定番「デラックス」お子様に人気「ツナマイルド」女性に好評「チーズ＆チーズ」の４種のおいしさを贅沢に組み合わせました', 2440, 3650, '${pageContext.request.contextPath}/image/first_ec/16.jpg');
+insert into items values(17, 'アイダホ風ほっくりポテマヨ', 'みんな大好き！ポテトと特製マヨソースの組み合わせ！定番のおいしさを味わえます', 2440, 3650, '${pageContext.request.contextPath}/image/first_ec/17.jpg');
+insert into items values(18, '贅沢フォルマッジ', '濃厚なカマンベールソース＆カマンベールと香りとコクのパルメザンチーズをトッピング', 2700, 4050, '${pageContext.request.contextPath}/image/first_ec/18.jpg');
 
 
 -- トッピング

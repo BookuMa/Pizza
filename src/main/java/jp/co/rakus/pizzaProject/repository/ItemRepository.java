@@ -24,6 +24,7 @@ public class ItemRepository {
 		item.setDescription(rs.getString("description"));
 		item.setPriceM(rs.getInt("price_m"));
 		item.setPriceL(rs.getInt("price_l"));
+		item.setImagePath(rs.getString("image_path"));
 		item.setDeleted(rs.getBoolean("deleted"));
 		return item;
 	};

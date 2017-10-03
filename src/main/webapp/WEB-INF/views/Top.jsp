@@ -16,18 +16,21 @@
 						<div class="panel-title">商品を検索する</div>
 					</div>
 					<div class="panel-body">
-						<form method="post" action="${pageContext.request.contextPath}/searchItem" class="form-horizontal">
+						<form:form method="post" action="${pageContext.request.contextPath}/searchItem" class="form-horizontal">
 							<div class="form-group">
 								<label for="code" class="control-label col-sm-2">商品名</label>
 						    <div class="col-sm-9">
 								<input type="text" name="keyword" id="code" class="form-control input-sm" />
+								  <span style="color:red">
+								   <c:out value= "${error}"/>
+								   </span>
 								</div>
 							</div>
 							<div class="text-center">
 								<input type="submit" value="検索" class="btn btn-primary" >
 								<input type="reset" value="クリア" class="btn btn-default">
 							</div>
-						</form>
+						</form:form>
 					</div>
 				</div>
 			</div>

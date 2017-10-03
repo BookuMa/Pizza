@@ -1,9 +1,10 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ include file="common/configurationTaglibs.jsp"%>
 
+<title>商品一覧表示画面(TOP画面)</title>
 </head>
 <body>
-	<div class="container">
+<div class="container">
 		<!-- ヘッダー表示 -->
 		<%@ include file="common/nav.jsp"%>
 
@@ -61,12 +62,12 @@
 								</tr>
 							</c:if>
 						</c:forEach>
-						
+
 					</tbody>
 				</table>
 			</div>
 		</div>
-
+		
 	</div>
 </body>
 </html>

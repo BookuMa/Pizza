@@ -19,4 +19,13 @@ public class TopService {
 	public List<Item> findAll() {
 		return itemRepository.findAll();
 	}
+	
+	/**
+	 * 曖昧ワード検索.
+	 * @param keyword　入力された文字列
+	 * @return　検索ヒット商品
+	 */
+	public List<Item> findByKeyword(String keyword){
+		return itemRepository.findByKeyword(keyword);
+	}
 }
